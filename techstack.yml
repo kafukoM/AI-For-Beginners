@@ -1,0 +1,607 @@
+repo_name: kafukoM/AI-For-Beginners
+report_id: 2a608eee6190c39f7dbcdf24b149e40f
+repo_type: Public
+timestamp: '2023-11-23T14:22:57+00:00'
+requested_by: carlotta94c
+provider: github
+branch: main
+detected_tools_count: 47
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source: Repo Metadata
+- name: Matplotlib
+  description: A plotting library for the Python programming language
+  website_url: http://matplotlib.org
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Charting Libraries
+  image_url: https://img.stackshare.io/service/2993/2DZC4KaA_400x400.jpg
+  detection_source: lessons/5-NLP/requirements-tf.txt
+  last_updated_by: Dmitri Soshnikov
+  last_updated_on: 2022-01-12 12:55:52.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source: ".devcontainer/Dockerfile"
+  last_updated_by: Dmitri Soshnikov
+  last_updated_on: 2022-05-24 17:41:31.000000000 Z
+- name: Vue.js
+  description: A progressive framework for building user interfaces
+  website_url: http://vuejs.org/
+  version: 2.6.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/3837/paeckCWC.png
+  detection_source_url: etc/quiz-app/package-lock.json
+  detection_source: etc/quiz-app/package.json
+  last_updated_by: Jen Looper
+  last_updated_on: 2022-02-11 22:40:24.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.18.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: etc/quiz-app/package-lock.json
+  detection_source: etc/quiz-app/package.json
+  last_updated_by: Jen Looper
+  last_updated_on: 2022-02-11 22:40:24.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source: etc/quiz-app/package.json
+  last_updated_by: Jen Looper
+  last_updated_on: 2022-02-11 22:40:24.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source: ".github/workflows/azure-static-web-apps-red-field-0a6ddfd03.yml"
+  last_updated_by: Julia Muiruri
+  last_updated_on: 2022-07-18 08:23:12.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source: lessons/5-NLP/requirements-tf.txt
+  last_updated_by: Dmitri Soshnikov
+  last_updated_on: 2022-01-12 12:55:52.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: etc/quiz-app/package.json
+  last_updated_by: Jen Looper
+  last_updated_on: 2022-02-11 22:40:24.000000000 Z
+- name: pip
+  description: A package installer for Python
+  website_url: https://pypi.org/project/pip/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5559/-RIWgodF_400x400.jpg
+  detection_source: binder/environment.yml
+  last_updated_by: Dmitri Soshnikov
+  last_updated_on: 2022-05-24 17:41:31.000000000 Z
+- name: OpenCV
+  description: Open Source Computer Vision Library
+  website_url: http://opencv.org/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: Image Processing and Management
+  image_url: https://img.stackshare.io/service/1293/opencv-logo-64x64.png
+  detection_source: lessons/5-NLP/requirements-tf.txt
+  last_updated_by: Dmitri Soshnikov
+  last_updated_on: 2022-01-12 12:55:52.000000000 Z
+- name: Pillow
+  description: Python Imaging Library
+  website_url: https://python-pillow.github.io/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: Image Processing and Management
+  image_url: https://img.stackshare.io/service/2375/default_1f67b0ca7416a9f52beb655f90b5602d5ef74b75.jpg
+  detection_source: lessons/5-NLP/requirements-tf.txt
+  last_updated_by: Dmitri Soshnikov
+  last_updated_on: 2022-01-12 12:55:52.000000000 Z
+- name: scikit-image
+  description: Image processing in Python
+  website_url: http://scikit-image.org/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: Image Processing and Management
+  image_url: https://img.stackshare.io/service/1294/897180.png
+  detection_source: binder/requirements.txt
+  last_updated_by: Dmitri Soshnikov
+  last_updated_on: 2022-05-24 17:41:31.000000000 Z
+- name: HTML
+  description: Hypertext Markup Language for creating web pages.
+  website_url: http://
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source: etc/Mindmap.html
+  last_updated_by: Dmitri Soshnikov
+  last_updated_on: 2022-03-30 15:30:42.000000000 Z
+- name: Jupyter
+  description: Multi-language interactive computing environments.
+  website_url: http://jupyter.org
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Data Science Notebooks
+  image_url: https://img.stackshare.io/service/4190/fGBUdNf__400x400.jpg
+  detection_source: Repo Metadata
+- name: NumPy
+  description: Fundamental package for scientific computing with Python
+  website_url: http://www.numpy.org/
+  version: 1.22.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Data Science Tools
+  image_url: https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png
+  detection_source_url: ".devcontainer/environment.yml"
+  detection_source: lessons/5-NLP/requirements-tf.txt
+  last_updated_by: Dmitri Soshnikov
+  last_updated_on: 2022-05-24 17:41:31.000000000 Z
+- name: PyTorch
+  description: A deep learning framework that puts Python first
+  website_url: http://pytorch.org/
+  version: 1.11.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Machine Learning Tools
+  image_url: https://img.stackshare.io/service/8171/YYpjkbVn_400x400.jpg
+  detection_source_url: ".devcontainer/environment.yml"
+  detection_source: binder/environment.yml
+  last_updated_by: Dmitri Soshnikov
+  last_updated_on: 2022-05-25 08:40:07.000000000 Z
+- name: Requests
+  description: Elegant and simple HTTP library for Python
+  website_url: http://docs.python-requests.org/en/latest/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Data Transfer
+  image_url: https://img.stackshare.io/service/10242/default_10e3fd58c910dc0c4241bc273a7235a0aa4197dd.png
+  detection_source: binder/environment.yml
+  last_updated_by: Dmitri Soshnikov
+  last_updated_on: 2022-05-24 17:41:31.000000000 Z
+- name: SciPy
+  description: Scientific Computing Tools for Python
+  website_url: http://www.scipy.org
+  version: 1.6.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Data Science Tools
+  image_url: https://img.stackshare.io/service/3303/scipyshiny_small.png
+  detection_source_url: ".devcontainer/environment.yml"
+  detection_source: lessons/5-NLP/requirements-tf.txt
+  last_updated_by: Dmitri Soshnikov
+  last_updated_on: 2022-01-12 12:55:52.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
+- name: TensorFlow
+  description: Open Source Software Library for Machine Intelligence
+  website_url: https://www.tensorflow.org
+  version: 2.8.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Machine Learning Tools
+  image_url: https://img.stackshare.io/service/4717/FtFnqC38_400x400.png
+  detection_source_url: ".devcontainer/requirements.txt"
+  detection_source: binder/requirements.txt
+  last_updated_by: Dmitri Soshnikov
+  last_updated_on: 2022-05-25 09:26:56.000000000 Z
+- name: Transformers
+  description: State-of-the-art Natural Language Processing for Pytorch and TensorFlow
+    2.0
+  website_url: https://huggingface.co/transformers/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: NLP / Sentiment Analysis
+  image_url: https://img.stackshare.io/service/12240/no-img.png
+  detection_source: lessons/5-NLP/requirements-tf.txt
+  last_updated_by: Dmitri Soshnikov
+  last_updated_on: 2022-01-12 12:55:52.000000000 Z
+- name: scikit-learn
+  description: Easy-to-use and general-purpose machine learning in Python
+  website_url: http://scikit-learn.org/stable/
+  version: 0.24.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Machine Learning Tools
+  image_url: https://img.stackshare.io/service/2657/scikit-learn-logo.png
+  detection_source_url: ".devcontainer/environment.yml"
+  detection_source: lessons/5-NLP/requirements-tf.txt
+  last_updated_by: Dmitri Soshnikov
+  last_updated_on: 2022-05-24 17:41:31.000000000 Z
+- name: setuptools
+  website_url: https://github.com/pypa/setuptools
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10517/647025.png
+  detection_source: binder/environment.yml
+  last_updated_by: Dmitri Soshnikov
+  last_updated_on: 2022-05-24 17:41:31.000000000 Z
+- name: gym
+  description: 'The OpenAI Gym: A toolkit for developing and comparing your reinforcement
+    learning agents'
+  package_url: https://pypi.org/gym
+  version: 0.23.1
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20403/default_ce843a13e614e0f1450cbeee8c38810e4f092f1e.png
+  detection_source_url: ".devcontainer/requirements.txt"
+  detection_source: binder/requirements.txt
+  last_updated_by: Dmitri Soshnikov
+  last_updated_on: 2022-05-24 17:41:31.000000000 Z
+- name: imageio
+  description: Library for reading and writing a wide range of image
+  package_url: https://pypi.org/imageio
+  version: 2.16.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20258/default_c011fd31f7e9af58e2e3e8a82a6acdf8662ecdb6.png
+  detection_source_url: ".devcontainer/requirements.txt"
+  detection_source: binder/requirements.txt
+  last_updated_by: Dmitri Soshnikov
+  last_updated_on: 2022-05-24 17:41:31.000000000 Z
+- name: nltk
+  description: Natural Language Toolkit
+  package_url: https://pypi.org/nltk
+  version: 3.6.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20023/default_b0d1a54f127d7017fce41c15f5e85568fb7019ed.png
+  detection_source_url: ".devcontainer/requirements.txt"
+  detection_source: lessons/5-NLP/requirements-tf.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-05-25 09:50:28.000000000 Z
+- name: opencv-python
+  description: Wrapper package for OpenCV python bindings
+  package_url: https://pypi.org/opencv-python
+  version: 4.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: lessons/5-NLP/requirements-pytorch.txt
+  detection_source: lessons/5-NLP/requirements-tf.txt
+  last_updated_by: Dmitri Soshnikov
+  last_updated_on: 2022-01-12 12:55:52.000000000 Z
+- name: pandas
+  description: Powerful data structures for data analysis
+  package_url: https://pypi.org/pandas
+  version: 1.4.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19837/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: ".devcontainer/requirements.txt"
+  detection_source: binder/requirements.txt
+  last_updated_by: Dmitri Soshnikov
+  last_updated_on: 2022-05-24 17:41:31.000000000 Z
+- name: seaborn
+  description: 'Seaborn: statistical data visualization'
+  package_url: https://pypi.org/seaborn
+  version: 0.11.2
+  license: BSD-1-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: ".devcontainer/requirements.txt"
+  detection_source: binder/requirements.txt
+  last_updated_by: Dmitri Soshnikov
+  last_updated_on: 2022-05-24 17:41:31.000000000 Z
+- name: smart-open
+  description: Utils for streaming large files
+  package_url: https://pypi.org/smart-open
+  version: 5.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: ".devcontainer/requirements.txt"
+  detection_source: binder/requirements.txt
+  last_updated_by: Dmitri Soshnikov
+  last_updated_on: 2022-05-24 17:41:31.000000000 Z
+- name: tensorboard
+  description: TensorBoard lets you watch Tensors Flow
+  package_url: https://pypi.org/tensorboard
+  version: 2.8.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: ".devcontainer/requirements.txt"
+  detection_source: binder/requirements.txt
+  last_updated_by: Dmitri Soshnikov
+  last_updated_on: 2022-05-25 09:26:56.000000000 Z
+- name: torch
+  description: Tensors and Dynamic neural networks in Python with strong GPU acceleration
+  package_url: https://pypi.org/torch
+  version: 1.8.1
+  license: BSD-1-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20038/default_a7a70921d2d3189665c78015850dc968f41705a1.png
+  detection_source_url: lessons/5-NLP/requirements-pytorch.txt
+  detection_source: lessons/5-NLP/requirements-pytorch.txt
+  last_updated_by: Dmitri Soshnikov
+  last_updated_on: 2022-01-12 12:55:52.000000000 Z
+  vulnerabilities:
+  - name: PyTorch vulnerable to arbitrary code execution
+    cve_id: CVE-2022-45907
+    cve_url: https://github.com/advisories/GHSA-47fc-vmwq-366v
+    detected_date: Dec 3
+    severity: critical
+    first_patched: 1.13.1
+- name: tqdm
+  description: Fast, Extensible Progress Meter
+  package_url: https://pypi.org/tqdm
+  version: 4.62.3
+  license: MPL-2.0,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19846/default_accee5d2b8ed75c2245f13504daf75b1cbc8cc9f.png
+  detection_source_url: ".devcontainer/requirements.txt"
+  detection_source: binder/requirements.txt
+  last_updated_by: Dmitri Soshnikov
+  last_updated_on: 2022-05-24 17:41:31.000000000 Z
+- name: "@vue/cli-plugin-babel"
+  description: Babel plugin for vue-cli
+  package_url: https://www.npmjs.com/@vue/cli-plugin-babel
+  version: 4.5.19
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16006/default_af9df0bc9fa88191d2fe609204c5bd7599c1a797.png
+  detection_source_url: etc/quiz-app/package-lock.json
+  detection_source: etc/quiz-app/package.json
+  last_updated_by: Jen Looper
+  last_updated_on: 2022-02-11 22:40:24.000000000 Z
+- name: "@vue/cli-plugin-eslint"
+  description: Eslint plugin for vue-cli
+  package_url: https://www.npmjs.com/@vue/cli-plugin-eslint
+  version: 4.5.19
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16035/default_b8a893285867e41b5fc4a7631d8fc2da834d778c.png
+  detection_source_url: etc/quiz-app/package-lock.json
+  detection_source: etc/quiz-app/package.json
+  last_updated_by: Jen Looper
+  last_updated_on: 2022-02-11 22:40:24.000000000 Z
+- name: "@vue/cli-service"
+  description: Local service for vue-cli projects
+  package_url: https://www.npmjs.com/@vue/cli-service
+  version: 4.5.19
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15990/default_cbd6c289400672b291755183817e9dd6abe1a612.png
+  detection_source_url: etc/quiz-app/package-lock.json
+  detection_source: etc/quiz-app/package.json
+  last_updated_by: Jen Looper
+  last_updated_on: 2022-02-11 22:40:24.000000000 Z
+- name: babel-eslint
+  description: Custom parser for ESLint
+  package_url: https://www.npmjs.com/babel-eslint
+  version: 10.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15803/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: etc/quiz-app/package-lock.json
+  detection_source: etc/quiz-app/package.json
+  last_updated_by: Jen Looper
+  last_updated_on: 2022-02-11 22:40:24.000000000 Z
+- name: core-js
+  description: Standard library
+  package_url: https://www.npmjs.com/core-js
+  version: 3.8.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15869/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: etc/quiz-app/package-lock.json
+  detection_source: etc/quiz-app/package.json
+  last_updated_by: Jen Looper
+  last_updated_on: 2022-02-11 22:40:24.000000000 Z
+- name: eslint-plugin-vue
+  description: Official ESLint plugin for Vue.js
+  package_url: https://www.npmjs.com/eslint-plugin-vue
+  version: 6.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15950/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: etc/quiz-app/package-lock.json
+  detection_source: etc/quiz-app/package.json
+  last_updated_by: Jen Looper
+  last_updated_on: 2022-02-11 22:40:24.000000000 Z
+- name: vue
+  description: Vue
+  package_url: https://www.npmjs.com/vue
+  version: 2.6.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15844/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: etc/quiz-app/package-lock.json
+  detection_source: etc/quiz-app/package.json
+  last_updated_by: Jen Looper
+  last_updated_on: 2022-02-11 22:40:24.000000000 Z
+- name: vue-i18n
+  description: Internationalization plugin for Vue.js
+  package_url: https://www.npmjs.com/vue-i18n
+  version: 8.22.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16963/default_ebf16e0c8af5e95030933d9e01479224b6665289.png
+  detection_source_url: etc/quiz-app/package-lock.json
+  detection_source: etc/quiz-app/package.json
+  last_updated_by: Jen Looper
+  last_updated_on: 2022-02-11 22:40:24.000000000 Z
+- name: vue-router
+  description: Official router for Vue.js 2
+  package_url: https://www.npmjs.com/vue-router
+  version: 3.4.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15969/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: etc/quiz-app/package-lock.json
+  detection_source: etc/quiz-app/package.json
+  last_updated_by: Jen Looper
+  last_updated_on: 2022-02-11 22:40:24.000000000 Z
+- name: vue-template-compiler
+  description: Template compiler for Vue 2.0
+  package_url: https://www.npmjs.com/vue-template-compiler
+  version: 2.6.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15850/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: etc/quiz-app/package-lock.json
+  detection_source: etc/quiz-app/package.json
+  last_updated_by: Jen Looper
+  last_updated_on: 2022-02-11 22:40:24.000000000 Z
