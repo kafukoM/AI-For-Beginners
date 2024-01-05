@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 kafukoM/AI-For-Beginners is built on the following main stack:
+
 - [Python](https://www.python.org) – Languages
 - [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
@@ -26,11 +27,13 @@ kafukoM/AI-For-Beginners is built on the following main stack:
 - [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 kafukoM/AI-For-Beginners is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png' alt='Node.js'/> [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
@@ -55,14 +58,15 @@ kafukoM/AI-For-Beginners is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [kafukoM/AI-For-Beginners](https://github.com/kafukoM/AI-For-Beginners)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|47<br/>Tools used|11/23/23 <br/>Report generated|
+|47<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -316,16 +320,16 @@ Full tech stack [here](/techstack.md)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
-|[gym](https://pypi.org/gym)|v0.23.1|05/24/22|Dmitri Soshnikov |Other|N/A|
-|[imageio](https://pypi.org/imageio)|v2.16.2|05/24/22|Dmitri Soshnikov |BSD-3-Clause|N/A|
-|[nltk](https://pypi.org/nltk)|v3.6.6|05/25/22|dependabot[bot] |Apache-2.0|N/A|
-|[opencv-python](https://pypi.org/opencv-python)|v4.5.1|01/12/22|Dmitri Soshnikov |MIT|N/A|
-|[pandas](https://pypi.org/pandas)|v1.4.2|05/24/22|Dmitri Soshnikov |BSD-3-Clause|N/A|
-|[seaborn](https://pypi.org/seaborn)|v0.11.2|05/24/22|Dmitri Soshnikov |BSD-1-Clause|N/A|
-|[smart-open](https://pypi.org/smart-open)|v5.2.1|05/24/22|Dmitri Soshnikov |MIT|N/A|
-|[tensorboard](https://pypi.org/tensorboard)|v2.8.0|05/25/22|Dmitri Soshnikov |Apache-2.0|N/A|
-|[torch](https://pypi.org/torch)|v1.8.1|01/12/22|Dmitri Soshnikov |BSD-1-Clause|[CVE-2022-45907](https://github.com/advisories/GHSA-47fc-vmwq-366v) (Critical)|
-|[tqdm](https://pypi.org/tqdm)|v4.62.3|05/24/22|Dmitri Soshnikov |MPL-2.0,MIT|N/A|
+|[gym](https://pypi.org/project/gym)|v0.23.1|05/24/22|Dmitri Soshnikov |Other|N/A|
+|[imageio](https://pypi.org/project/imageio)|v2.16.2|05/24/22|Dmitri Soshnikov |BSD-3-Clause|N/A|
+|[nltk](https://pypi.org/project/nltk)|v3.6.6|05/25/22|dependabot[bot] |Apache-2.0|N/A|
+|[opencv-python](https://pypi.org/project/opencv-python)|v4.5.1|01/12/22|Dmitri Soshnikov |MIT|N/A|
+|[pandas](https://pypi.org/project/pandas)|v1.4.2|05/24/22|Dmitri Soshnikov |BSD-3-Clause|N/A|
+|[seaborn](https://pypi.org/project/seaborn)|v0.11.2|05/24/22|Dmitri Soshnikov |BSD-1-Clause|N/A|
+|[smart-open](https://pypi.org/project/smart-open)|v5.2.1|05/24/22|Dmitri Soshnikov |MIT|N/A|
+|[tensorboard](https://pypi.org/project/tensorboard)|v2.8.0|05/25/22|Dmitri Soshnikov |Apache-2.0|N/A|
+|[torch](https://pypi.org/project/torch)|v1.8.1|01/12/22|Dmitri Soshnikov |BSD-1-Clause|[CVE-2022-45907](https://github.com/advisories/GHSA-47fc-vmwq-366v) (Critical)|
+|[tqdm](https://pypi.org/project/tqdm)|v4.62.3|05/24/22|Dmitri Soshnikov |MPL-2.0,MIT|N/A|
 
 
 ## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (10)
